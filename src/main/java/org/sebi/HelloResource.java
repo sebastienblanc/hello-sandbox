@@ -16,6 +16,6 @@ public class HelloResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello OpenShift Developer Sandbox, this has been deployed with : " + deployment;
+        return "Hello Developer Sandbox for Red Hat OpenShift, this has been deployed with : " + deployment;
     }
 }
